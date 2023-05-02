@@ -1,9 +1,11 @@
 import React from 'react';
+import Head from 'next/head';
 
-const Testimonials = () => {
+
+const AboutUs = () => {
   return (
     <div>
-      <h1>Testimonials</h1>
+      <h1>About Us</h1>
       <p>Here are some testimonials from our users:</p>
       <ul>
         <li>"This website has helped me integrate AI into my teaching methods!" - Sarah</li>
@@ -14,4 +16,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default AboutUs;
