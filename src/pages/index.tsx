@@ -92,7 +92,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Community{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -100,7 +100,7 @@ export default function Home() {
           <p
             className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
+            Engage with our community!
           </p>
         </a>
 
