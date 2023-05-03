@@ -28,19 +28,19 @@ const Feedback: React.FC = () => {
         <div className="max-w-4xl px-4 py-8 bg-white shadow-md rounded-md">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Feedback/Testimonials</h1>
           <TestimonialCard
-            name="John Doe"
-            role="CEO, Company A"
-            content="The team provided exceptional service and support throughout our collaboration. Their expertise and dedication have greatly contributed to our project's success."
+            name="Laura Williams"
+            role="High School Math Teacher"
+            content="This website has made it incredibly easy for me to learn AI concepts and integrate them into my classroom. The resources provided are invaluable, and the support has been outstanding."
           />
           <TestimonialCard
-            name="Jane Smith"
-            role="CTO, Company B"
-            content="We've been thoroughly impressed by the quality of work and the level of professionalism demonstrated by the team. They truly went above and beyond to deliver outstanding results."
+            name="David Turner"
+            role="Elementary School Science Teacher"
+            content="Thanks to this website, I have gained confidence in teaching AI-related topics to my students. The courses and materials are engaging, well-structured, and highly informative."
           />
           <TestimonialCard
-            name="Michael Johnson"
-            role="COO, Company C"
-            content="Working with this team has been a fantastic experience. They are knowledgeable, responsive, and committed to delivering high-quality solutions tailored to our unique needs."
+            name="Emma Brown"
+            role="Middle School English Teacher"
+            content="Introducing AI concepts to my students has never been easier, thanks to the wealth of resources and support provided by this website. I'm excited to see how AI can transform my teaching practices."
           />
         </div>
       </div>
