@@ -67,7 +67,7 @@ export default function Home() {
         </a>
 
         <a
-          href="http://localhost:63342/next.js2/src/pages/learn.html?_ijt=5ihcjs7pmf5u6vaiavvdtf7n2e&_ij_reload=RELOAD_ON_SAVE"
+          href="http://localhost:63342/next.js/src/pages/learn.html?_ijt=sd877pm5btufo3iu0pv5ufqunc&_ij_reload=RELOAD_ON_SAVE"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
