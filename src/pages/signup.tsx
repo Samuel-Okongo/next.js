@@ -18,7 +18,7 @@ const SignUp: React.FC = () => {
                 Full Name
               </label>
               <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-md outline-none focus:border-indigo-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none focus:border-indigo-500"
                 type="text"
                 name="name"
                 id="name"
@@ -30,7 +30,7 @@ const SignUp: React.FC = () => {
                 Email Address
               </label>
               <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-md outline-none focus:border-indigo-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none focus:border-indigo-500"
                 type="email"
                 name="email"
                 id="email"
@@ -42,7 +42,7 @@ const SignUp: React.FC = () => {
                 Password
               </label>
               <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-md outline-none focus:border-indigo-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none focus:border-indigo-500"
                 type="password"
                 name="password"
                 id="password"
@@ -54,7 +54,7 @@ const SignUp: React.FC = () => {
                 Confirm Password
               </label>
               <input
-                className="w-full px-3 py-2 border border-gray-300 rounded-md outline-none focus:border-indigo-500"
+                className="w-full px-3 py-2 border border-gray-300 rounded-md text-black outline-none focus:border-indigo-500"
                 type="password"
                 name="confirmPassword"
                 id="confirmPassword"
