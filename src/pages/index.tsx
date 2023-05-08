@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import searchbar from '../components/searchbar.tsx';
 import { Inter } from 'next/font/google'
+import styles from '../styles/SearchBar.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
