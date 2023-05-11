@@ -81,8 +81,8 @@ export default function Home() {
           >
             {'Founders'}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src="/is218logo.png"
+              alt="BangProductions Logo"
               className="dark:invert"
               width={100}
               height={24}
