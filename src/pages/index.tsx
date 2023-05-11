@@ -1,17 +1,74 @@
-import Link from 'next/link'
-import Image from 'next/image'
-import SearchBar from '../components/searchbar.js';
-import { Inter } from 'next/font/google'
-import styles from '../styles/SearchBar.module.css'
+import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 
-const inter = Inter({ subsets: ['latin'] })
+const headerStyle = {
+  position: 'fixed',
+  top: '10px',
+  right: '10px',
+  display: 'flex',
+  justifyContent: 'center',
+  marginBottom: '2rem',
+  width: '100%',
+};
+
+const inputStyle = {
+  width: '100%',
+  padding: '0.5rem',
+  border: '1px solid #ccc',
+  borderRadius: '3px',
+  backgroundColor: 'black',
+  color: 'white',
+};
+
+const buttonStyle = {
+  padding: '0.5rem 1rem',
+  backgroundColor: 'white',
+  color: 'black',
+  border: 'none',
+  borderRadius: '3px',
+  marginLeft: '1rem',
+  cursor: 'pointer',
+};
+
+const footerStyle = {
+  position: 'fixed',
+  bottom: '0',
+  width: '100%',
+  textAlign: 'center',
+  padding: '1rem 0',
+  backgroundColor: '#f8f8f8',
+  borderTop: '1px solid #e7e7e7',
+};
 
 export default function Home() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (event) => {
+    event.preventDefault();
+    console.log(searchTerm);
+  };
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <searchbar className="searchbar-top-right" onSearch={(searchTerm) => console.log(searchTerm)} />
-        <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-black-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
+      <header style={headerStyle}>
+        <form onSubmit={handleSearch}>
+          <input
+            style={inputStyle}
+            type="text"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            placeholder="Search..."
+          />
+          <button style={buttonStyle} type="submit">
+            Search
+          </button>
+        </form>
+      </header>
+
+      {/* Your existing code starts here */}
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-black-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by clicking this&nbsp;
           <a href="http://localhost:3000/signup" class="font-mono font-bold">Signup</a>
         </p>
@@ -56,14 +113,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+          <h2 className={`{inter.className} mb-3 text-2xl font-semibold`}>
             About us{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+            className={`{inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
             Find out all about us
           </p>
@@ -75,14 +132,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+          <h2 className={`{inter.className} mb-3 text-2xl font-semibold`}>
             Learn{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+            className={`{inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
             Learn how AI can help revolutionize teaching
           </p>
@@ -94,14 +151,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+          <h2 className={`{inter.className} mb-3 text-2xl font-semibold`}>
           Community{' '}
           <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+            className={`{inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
             Engage with our community!
           </p>
@@ -113,14 +170,14 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
+          <h2 className={`{inter.className} mb-3 text-2xl font-semibold`}>
             Testimonials{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
+            className={`{inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
           >
             See what people have to say about our webiste.
           </p>
