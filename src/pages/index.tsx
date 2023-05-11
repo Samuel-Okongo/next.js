@@ -55,14 +55,9 @@ export default function Home() {
         <form onSubmit={handleSearch}>
           <input
             style={inputStyle}
-            type="text"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            placeholder="Search..."
+            type="      MyWebClass.Org"
+            placeholder="       MyWebClass.Org"
           />
-          <button style={buttonStyle} type="submit">
-            Search
-          </button>
         </form>
       </header>
 
