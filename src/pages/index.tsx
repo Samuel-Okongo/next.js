@@ -81,8 +81,8 @@ export default function Home() {
           >
             {'Founders'}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
+              src="public/is218logo.png"
+              alt="BangProductions Logo"
               className="dark:invert"
               width={100}
               height={24}
@@ -146,7 +146,7 @@ export default function Home() {
         </a>
 
         <a
-          href="public/is218logo.png"
+          href="http://localhost:63342/next.js/src/pages/community.html?_ijt=gigll0ujf8q5affocc0d6ljcad&_ij_reload=RELOAD_ON_SAVE"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           target="_blank"
           rel="noopener noreferrer"
