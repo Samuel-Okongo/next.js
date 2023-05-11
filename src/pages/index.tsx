@@ -81,8 +81,8 @@ export default function Home() {
           >
             {'Founders'}
             <Image
-              src="public/is218logo.png"
-              alt="BangProductions Logo"
+              src="/is218logo.png"
+              alt="Bang Productions Logo"
               className="dark:invert"
               width={100}
               height={24}
