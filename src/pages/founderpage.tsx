@@ -11,7 +11,7 @@ const pageContainerStyle = {
 };
 
 const headerStyle = {
-  backgroundColor: '#0070f3',
+  backgroundColor: '#050505',
   width: '100%',
   padding: '20px 0',
   color: 'white',
@@ -51,7 +51,7 @@ const founderDescriptionStyle = {
 };
 
 const footerStyle = {
-  backgroundColor: '#0070f3',
+  backgroundColor: '#050505',
   width: '100%',
   padding: '20px 0',
   color: 'white',
