@@ -72,7 +72,7 @@ const FounderPage = () => {
     {
       name: 'Devendra Pitam',
       description:
-        'Devendra is a web developer who loves to code. He was excited to work on this project to help teachers understand and use AI in their classrooms.',
+        'Devendra is an enthusiastic and talented web developer who is thrilled to be working on a project that will help teachers incorporate AI in their classrooms. With his dedication and expertise, the resulting product is sure to be of exceptional quality and value.',
     },
     {
       name: 'Christopher Rameirez',
