@@ -41,7 +41,7 @@ const founderCardStyle = {
 const founderNameStyle = {
   fontSize: '1.5em',
   fontWeight: 'bold',
-  color: '#0070f3',
+  color: '#050505',
 };
 
 const founderDescriptionStyle = {
